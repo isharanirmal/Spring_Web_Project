@@ -1,12 +1,10 @@
-# Onvent - Event Management System
+
 
 This project provides a complete event management system with both backend (Spring Boot) and frontend (React) components.
 
-## Project Structure
 
-```
 .
-├── src/                    # Spring Boot backend
+├── src/                    
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── ac.nsbm.onvent/
@@ -18,22 +16,22 @@ This project provides a complete event management system with both backend (Spri
 │   │   │       └── OnventApplication.java
 │   │   └── resources/
 │   └── test/
-├── frontend/              # React frontend
+├── frontend/             
 │   ├── src/
-│   │   ├── components/    # Reusable UI components
-│   │   ├── pages/         # Page components
-│   │   ├── services/      # API service functions
-│   │   ├── App.jsx        # Main application component
-│   │   └── main.jsx       # Entry point
-│   ├── package.json       # Frontend dependencies
-│   └── vite.config.js     # Vite configuration
-├── start-app.bat          # Script to start the complete application
-├── start-frontend.bat     # Script to start frontend only
-├── start-backend.bat      # Script to start backend only
-└── pom.xml                # Maven configuration
+│   │   ├── components/    
+│   │   ├── pages/         
+│   │   ├── services/    
+│   │   ├── App.jsx      
+│   │   └── main.jsx       
+│   ├── package.json     
+│   └── vite.config.js     
+├── start-app.bat          
+├── start-frontend.bat      
+├── start-backend.bat       
+└── pom.xml               
 ```
 
-## Features Implemented
+
 
 1. **User Management**
    - User registration
